@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sparta Calculator</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="container">
+			<div class="display">
+				<h2 id="screen">Sparta Calculator</h2>
+			</div>
+			<button class="buttonNum" value="7" onclick="buttPress(value)">7</button>
+			<button class="buttonNum" value="8" onclick="buttPress(value)">8</button>
+			<button class="buttonNum" value="9" onclick="buttPress(value)">9</button>
+
+			<button class="operator" value="*" onclick="operator(value)">*</button>
+
+			<button class="buttonNum" value="4" onclick="buttPress(value)">4</button>
+			<button class="buttonNum" value="5" onclick="buttPress(value)">5</button>
+			<button class="buttonNum" value="6" onclick="buttPress(value)">6</button>
+
+			<button class="operator"value="/" onclick="operator(value)">/</button>
+
+			<button class="buttonNum" value="1" onclick="buttPress(value)">1</button>
+			<button class="buttonNum" value="2" onclick="buttPress(value)">2</button>
+			<button class="buttonNum" value="3" onclick="buttPress(value)">3</button>
+
+			<button class="operator" value="-" onclick="operator(value)">-</button>
+
+			<button class="buttonClear">AC</button>
+
+			<button class="equals" value="=" onclick="eval">=</button>
+
+			<button class="operator" value="+" onclick="operator(value)">+</button>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
